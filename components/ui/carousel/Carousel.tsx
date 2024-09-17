@@ -1,37 +1,25 @@
 import React from 'react'
+import Image from "next/image";
+import imagem1 from "../../../app/public/Photo.jpg";
+import imagem2 from "../../../app/public/Photo2.jpg";
+import imagem3 from "../../../app/public/Photo3.jpg";
+import imagem4 from "../../../app/public/Photo4.jpg";
+import imagem5 from "../../../app/public/Photo5.jpg";
+import imagem6 from "../../../app/public/Photo6.jpg";
 
 
 const Carousel = () => {
   return (
     <div className="carousel carousel-center rounded-box">
   <div className="carousel-item">
-    <img src="app/public/Photo.jpg" alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="app/public/Photo2.jpg"
-      alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-      alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-      alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Pizza" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-      alt="Pizza" />
+
+    <Image src={imagem1} alt="car1" width={400} height={400} />
+    <Image src={imagem2} alt="car2" width={400} height={400} />
+    <Image src={imagem3} alt="car3" width={400} height={400} />
+    <Image src={imagem4} alt="car4" width={400} height={400} />
+    <Image src={imagem5} alt="car5" width={400} height={400} />
+    <Image src={imagem6} alt="car6" width={400} height={400} />
+
   </div>
 </div>
   )

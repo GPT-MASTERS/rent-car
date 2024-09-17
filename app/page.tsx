@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <Carousel />
       <Cards />
       <Footer />  
     </>
