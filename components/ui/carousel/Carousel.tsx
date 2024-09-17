@@ -21,8 +21,6 @@ const Carousel = () => {
     <Image src={imagem6} alt="car6" width={400} height={400} />
 
   </div>
-</div>
-  )
-}
+</div>)}
 
 export default Carousel

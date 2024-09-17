@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import heroImage from "../../app/public/download.jpeg";
+import { Separator } from "@/components/ui/separator"
+
 
 const HeroSection: React.FC = () => {
   return (
@@ -15,6 +17,7 @@ const HeroSection: React.FC = () => {
         />
         <div className="">
           <h1 className="text-5xl font-bold">Box Office News!</h1>
+          <Separator orientation="horizontal" />
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et

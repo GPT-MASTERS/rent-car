@@ -8,6 +8,8 @@ import {
 } from "@/components/ui/header/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/header/avatar";
 import { DropdownMenu } from "@radix-ui/react-dropdown-menu";
+import { Separator } from "@/components/ui/separator"
+
 
 const Navbar = () => {
   return (
@@ -39,12 +41,16 @@ const Navbar = () => {
             >
               Serviços
             </a>
+            <Separator orientation="vertical" />
+
             <a
               href="#responsive-header"
               className="block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4"
             >
               Carros
             </a>
+            <Separator orientation="vertical" />
+
             <a
               href="#responsive-header"
               className="block mt-4 lg:inline-block lg:mt-0  hover:text-white"
