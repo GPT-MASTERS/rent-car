@@ -20,7 +20,7 @@ const Cards = () => {
     <div >
       <div className="w-{400} flex items-center space-x-6 mt-3 justify-center">
       <Card>
-        <Image src={imagem1} alt="car1" width={400} height={400} />
+        <Image src={imagem1} alt="car1" width={400}  height={400} />
         <CardHeader>
           <CardTitle>Card Title</CardTitle>
         </CardHeader>
